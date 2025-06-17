@@ -2,7 +2,11 @@ Identifier: eos37l0
 Slug: chembl-kpneumoniae
 Status: In progress
 Title: Klebsiella pneumoniae activity prediction
-Description: Klebsiella pneumoniae activity prediction based on ChEMBL data
+Description: Klebsiella pneumoniae activity prediction based on phenotypic 
+  ChEMBL data. Each column corresponds to a specific bioactivity dataset derived
+  from ChEMBL, encompassing multiple assays and binarization cut-offs. The 
+  global consensus score summarizes the probability of being active. Model 
+  developed by Ersilia.
 Deployment:
 - Local
 Source: Local
@@ -15,7 +19,7 @@ Input Dimension: 1
 Output: Score
 Output Dimension: 22
 Output Consistency: Fixed
-Interpretation: 'Probability of being active against Klebsiella pneumoniae and global consensus score'
+Interpretation: 'The higher the probabilities and the global consensus scores, the more likely this compound is active against Klebsiella pneumoniae'
 Tag:
 - Antimicrobial activity
 - ChEMBL

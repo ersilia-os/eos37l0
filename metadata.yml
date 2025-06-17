@@ -1,6 +1,6 @@
 Identifier: eos37l0
 Slug: chembl-kpneumoniae
-Status: In progress
+Status: Ready
 Title: Klebsiella pneumoniae activity prediction
 Description: Klebsiella pneumoniae activity prediction based on phenotypic 
   ChEMBL data. Each column corresponds to a specific bioactivity dataset derived
@@ -36,5 +36,15 @@ License: GPL-3.0-only
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-13'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos37l0.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos37l0
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1334.0
 Environment Size: 726.0
+Image Size: 2644.3
+Computational Performance 1: 44.77
+Computational Performance 2: 34.71
+Computational Performance 3: 35.17
+Computational Performance 4: 214.67
+Computational Performance 5: 1030.73

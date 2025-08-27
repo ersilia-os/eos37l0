@@ -35,6 +35,7 @@ Source Code: None
 License: GPL-3.0-only
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-13'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos37l0.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos37l0
 Docker Architecture:
